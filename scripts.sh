@@ -1,7 +1,8 @@
 sudo apt update && sudo apt upgrade
 
-#install vscode
+#install vscode & extensions
 sudo snap install --classic code # or code-insiders
+code --install-extension msjsdiag.debugger-for-chrome
 
 #install .net core sdk (https://dotnet.microsoft.com/download/linux-package-manager/ubuntu18-04/sdk-current)
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
@@ -35,3 +36,4 @@ sudo apt install xclip
 
 #common
 sudo apt install transmission
+sudo apt install chromium-browser

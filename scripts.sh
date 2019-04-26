@@ -33,7 +33,9 @@ sudo apt install git
 #ubuntu stuff
 sudo apt install gnome-tweaks
 sudo apt install xclip
+sudo apt install traceroute
 
 #common
 sudo apt install transmission
 sudo apt install chromium-browser
+sudo apt install cifs-utils

@@ -37,5 +37,9 @@ sudo apt install traceroute
 
 #common
 sudo apt install transmission
-sudo apt install chromium-browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 sudo apt install cifs-utils
+echo 100000 | sudo tee /proc/sys/fs/inotify/max_user_watches

@@ -6,6 +6,7 @@ code --install-extension msjsdiag.debugger-for-chrome
 
 #install .net core sdk
 sudo snap install dotnet-sdk --classic
+sudo snap alias dotnet-sdk.dotnet dotnet
 
 #vlc
 sudo apt-get install vlc

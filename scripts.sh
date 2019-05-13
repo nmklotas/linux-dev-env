@@ -4,14 +4,8 @@ sudo apt update && sudo apt upgrade
 sudo snap install --classic code # or code-insiders
 code --install-extension msjsdiag.debugger-for-chrome
 
-#install .net core sdk (https://dotnet.microsoft.com/download/linux-package-manager/ubuntu18-04/sdk-current)
-wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-
-sudo add-apt-repository universe
-sudo apt-get install apt-transport-https
-sudo apt-get update
-sudo apt-get install dotnet-sdk-2.2
+#install .net core sdk
+sudo snap install dotnet-sdk --classic
 
 #vlc
 sudo apt-get install vlc

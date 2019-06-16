@@ -39,4 +39,4 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt install cifs-utils
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 sudo apt-get install software-properties-common
-sudo apt-install net-tools
+sudo apt install net-tools

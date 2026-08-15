@@ -7,4 +7,8 @@ sudo steamos-readonly disable &&
   git clone https://aur.archlinux.org/yay-bin.git && 
   cd yay-bin && makepkg -si
 
+# coolercontrol
+sudo ./CoolerControlD-x86_64.AppImage
+chmod +x CoolerControlD-x86_64.AppImage
+
 yay -S coolerdash-git
